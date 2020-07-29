@@ -11,9 +11,9 @@ config.json
    "ldapLogin": {
       "enable": true,
       "server": "ldap://172.16.61.198",
-      "baseDn": "panda\\xieyingbiao",
+      "baseDn": "pan\\xieyingbiao",
       "bindPassword": "xyb123456",
-      "searchDn": "DC=panda,DC=com",
+      "searchDn": "DC=pan,DC=com",
       "searchStandard": "&(sAMAccountName=%s)",
       "emailPostfix": "",
       "emailKey": "",
